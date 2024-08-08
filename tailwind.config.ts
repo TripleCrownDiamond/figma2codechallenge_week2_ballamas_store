@@ -8,10 +8,26 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        archivo: ['Archivo Variable', 'sans-serif'],
+        chillax: ['Chillax Variable', 'sans-serif'],
+      },
+      colors: {
+        white: 'var(--b-white)',
+        lightGray: 'var(--b-light-gray)',
+        gray: 'var(--b-gray)',
+        darkGray: 'var(--b-dark-gray)',
+        dark: 'var(--b-dark)',
+        green: 'var(--b-green)',
+        purple: 'var(--b-purple)',
+        ocean: 'var(--b-ocean)',
+        olive: 'var(--b-olive)',
+      },
+      letterSpacing: {
+        tighter: '-0.04rem',
+      },
+      fontSize: {
+        '10px': '10px',
       },
     },
   },
