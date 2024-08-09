@@ -1,0 +1,7 @@
+.hero-container {
+    @apply relative w-full bg-[url('/img/hero_img.png')] bg-cover bg-center h-[372px] md:h-[480px] lg:h-[700px] rounded-[52px] flex flex-col justify-center items-center px-[22px] md:px-[78px] py-[42px] md:py-[96px];
+}
+
+.hero-content {
+    @apply text-white relative z-10;
+}

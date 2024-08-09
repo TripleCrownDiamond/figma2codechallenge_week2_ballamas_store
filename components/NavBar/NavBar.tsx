@@ -42,7 +42,7 @@ const NavBar = () => {
         </div>
         <div className="flex lg:hidden">
           <Image
-            src={menuOpened ? "/cancel_icon.svg" : "/hambuger-menu_icon.svg"}
+            src={menuOpened ? "/cancel.svg" : "/hambuger-menu.svg"}
             alt="Hamberger Menu Icon"
             width={42}
             height={24}
@@ -72,7 +72,7 @@ const NavBar = () => {
               <Link href="#account" className="nav-link flex items-center">
                 <Image
                   className="mr-[6px]"
-                  src="/user_icon.svg"
+                  src="/user.svg"
                   alt="User Icon"
                   width={18}
                   height={18}
@@ -87,7 +87,7 @@ const NavBar = () => {
             </li>
             <li>
               <Image
-                src="/search_icon.svg"
+                src="/search.svg"
                 alt="Search Icon"
                 width={20}
                 height={20}
@@ -97,14 +97,14 @@ const NavBar = () => {
         </div>
         <div className="flex lg:hidden flex-row gap-[12px]">
           <Image
-            src="/search_icon.svg"
-            alt="Hamberger Menu Icon"
+            src="/search.svg"
+            alt="Search Menu Icon"
             width={20}
             height={20}
           />
           <Image
-            src="/cart_icon.svg"
-            alt="Hamberger Menu Icon"
+            src="/menu-cart.svg"
+            alt="Cart Menu Icon"
             width={20}
             height={20}
           />
@@ -147,7 +147,7 @@ const NavBar = () => {
               <Link href="#account" className="nav-link flex items-center">
                 <Image
                   className="mr-[6px]"
-                  src="/user_icon.svg"
+                  src="/user.svg"
                   alt="User Icon"
                   width={18}
                   height={18}

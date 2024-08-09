@@ -27,8 +27,13 @@ const config: Config = {
         tighter: '-0.04rem',
       },
       fontSize: {
-        '10px': '10px',
+        'custom-10': '10px',
+        'custom-42': '42px',
       },
+      lineHeight: {
+        'custom-12': '12px',
+        'custom-44': '44px',
+      }
     },
   },
   plugins: [],
